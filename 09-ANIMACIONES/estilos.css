@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid darkgray;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 6px 6px 1px darkgray;
+    background-color: goldenrod;
+    color:cadetblue;    
+    cursor: pointer;
+}
