@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+    .contenedor {
+        display: flex;
+        height: 100vh;
+    }
+    
+    .aside {
+        background-color: black;
+    }
+    
+    .elemento1 {
+        background-color: yellow;
+        padding: 1rem;
+    }
+    
+    .elemento2 {
+        background-color: blue;
+        padding: 1rem;
+    }
+    
+    .elemento3 {
+        background-color: red;
+        padding: 1rem;
+    }
+    
+    .main {
+        background-color: bisque;
+        flex-grow: 1;
+    }
+
+
+@media(max-device-width:640px) {
+    .aside {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contenedor{
+        flex-direction: column-reverse;
+    }
+
+    .elemento1, .elemento2, .elemento3 {
+        flex-grow: 1;
+    }
+}
